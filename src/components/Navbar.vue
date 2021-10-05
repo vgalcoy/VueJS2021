@@ -18,6 +18,7 @@
             <div id="menu">
                 <div id="menuk">
                     <div id="isimenu">IOC SKK Migas</div>
+                    <div id ="vectorr"> <img alt="iconuser" src="@/assets/ic-rec-tracking.png"></div>
                 </div>
             </div>
         </div>
@@ -80,6 +81,21 @@ name : "Navbar"
 </script>
 
 <style>
+#vectorr{
+    position: static;
+width: 24px;
+height: 24px;
+left: 38.5px;
+top: 0px;
+
+background: #FFFFFF;
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 2px 0px;
+}
 #isimenu{
     position: static;
 left: 0%;
